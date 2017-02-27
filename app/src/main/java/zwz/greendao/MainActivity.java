@@ -40,14 +40,12 @@ public class MainActivity extends AppCompatActivity {
 
         List<User> users = userDao.loadAll();
         for (int i = 0; i < users.size(); i++) {
-            Log.d("vivi","------------user="+users.get(i).toString());
+            Log.d("vivi","------------user-----="+users.get(i).toString());
         }
 
         List<Animal> animals = animalDao.loadAll();
         for (int i = 0; i < animals.size(); i++) {
-            Log.d("vivi","---------------animals="+animals.get(i).toString());
-
-
+            Log.d("vivi","---------------animals-----="+animals.get(i).toString());
 
         }
 
