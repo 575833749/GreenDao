@@ -20,7 +20,7 @@ public class MyOpenHelper extends DaoMaster.OpenHelper {
         Log.i("greenDAO",
                 "Upgrading schema from version " + oldVersion + " to " + newVersion + " by migrating all tables data");
 
-        //数据库升级  升级TestDao
-        MigrationHelper.migrate(db, TestDao.class);
+        //数据库升级  升级UserDao
+        MigrationHelper.migrate(db, UserDao.class);
     }
 }

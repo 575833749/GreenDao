@@ -35,12 +35,4 @@ public class GreenDaoManage {
         return animalDao;
     }
 
-    public TestDao getTestDao(){
-        TestDao testDao = mDaoSession.getTestDao();
-        return testDao;
-    }
-    public Test2Dao getTest2Dao(){
-        Test2Dao testDao = mDaoSession.getTest2Dao();
-        return testDao;
-    }
 }
