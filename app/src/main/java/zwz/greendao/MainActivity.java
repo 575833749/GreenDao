@@ -31,8 +31,8 @@ public class MainActivity extends AppCompatActivity {
         User user=new User();
         user.setAge(1);
         user.setName("a");
+        user.setTest("test");
         userDao.save(user);
-        //DDDDDDDDDDDDDDDDDDDDD
         user=new User();
 
 
