@@ -38,7 +38,6 @@ public class MainActivity extends AppCompatActivity {
         user.setName("b");
         userDao.save(user);
 
-
         List<User> users = userDao.loadAll();
         for (int i = 0; i < users.size(); i++) {
             Log.d("vivi","------------user="+users.get(i).toString());
