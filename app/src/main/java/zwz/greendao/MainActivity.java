@@ -34,6 +34,8 @@ public class MainActivity extends AppCompatActivity {
         userDao.save(user);
         //DDDDDDDDDDDDDDDDDDDDD
         user=new User();
+
+
         user.setAge(33);
         user.setName("b");
         userDao.save(user);
