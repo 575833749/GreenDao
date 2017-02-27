@@ -47,6 +47,9 @@ public class MainActivity extends AppCompatActivity {
         List<Animal> animals = animalDao.loadAll();
         for (int i = 0; i < animals.size(); i++) {
             Log.d("vivi","---------------animals="+animals.get(i).toString());
+
+
+
         }
 
     }
