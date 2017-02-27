@@ -1,6 +1,8 @@
 package zwz.greendao.greendao;
 
 
+import zwz.greendao.MyApplication;
+
 /**
  * Created by 朱伟志 on 2017/2/27 0027 11:04.
  */
